@@ -18,3 +18,33 @@ h1 {
     text-transform: uppercase;
     color: #2C1C19;
 }
+
+#logo {
+    float: left;
+    font-size: 300%;
+}
+
+#menu {
+    font-size: 130%;
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    background-color: #E567BF;
+    transition: all 0.5s;
+}
+
+.active {
+    background-color: #E567BF;
+}
