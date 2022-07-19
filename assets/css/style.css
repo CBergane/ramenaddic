@@ -33,6 +33,10 @@ h1 {
     float: left;
     list-style-type: none;
     margin-right: 1rem;
+    text-align: center;
+}
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu a {
@@ -42,9 +46,31 @@ h1 {
 
 #menu a:hover {
     background-color: #E567BF;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 .active {
     background-color: #E567BF;
 }
+
+#cherry-border{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+/* spinning animation 45 sec one spin */
+#cherry-img{
+    height: 600px;
+    background: url(../images/cherry.jpeg) no-repeat center center;
+    background-size: 600px;
+    animation: rotation 45s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
