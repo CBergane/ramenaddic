@@ -13,7 +13,7 @@ body {
     color: #2C1C19;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     color: #2C1C19;
@@ -62,11 +62,11 @@ h1 {
 /* spinning animation 45 sec one spin */
 #cherry-img{
     height: 600px;
-    background: url(../images/cherry.jpeg) no-repeat center center;
+    background: url(../images/cherry.png) no-repeat center center;
     background-size: 600px;
     animation: rotation 45s infinite linear;
 }
-
+/* makes the img spin */
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -74,3 +74,55 @@ h1 {
     to {
       transform: rotate(359deg);
     }
+}
+
+#short-story{
+    text-align: center;
+    font-size: 250%;
+}
+
+hr{
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#right-story {
+    width: 45%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin: 10px 0;
+}
+
+#picture-left {
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    float: left;
+    margin: 0 auto;
+    background: url(../images/main-ramen.png)no-repeat;
+    background-size: contain;
+}
+
+footer{
+   clear: both;
+   position: relative;
+   height: 50px;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+    line-height: 75px;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #2C1C19;
+}
