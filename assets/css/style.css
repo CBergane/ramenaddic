@@ -30,10 +30,12 @@ h1, h2 {
     float: right;
 }
 
+
+
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 1rem;
+    margin-right: 15px;
     text-align: center;
 }
 #menu, #logo {
@@ -64,6 +66,8 @@ h1, h2 {
     background-size: 400px;
     animation: rotation 45s infinite linear;
 }
+
+
 /* makes the img spin */
 @keyframes rotation {
     from {
@@ -269,10 +273,38 @@ footer{
 @media screen and (max-width: 950px) {
 
     #menu {
-        clear: left;
-        float: left;
+        clear: right;
+        float: right;
         line-height: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         margin-left: 30px;
+    }
+    #cherry-border {
+        padding: 35px;
+    }
+}
+@media screen and (max-width:390px) {
+    #menu {
+        font-size: 100%;
+    }
+    #cherry-border {
+        display: none;
+    }
+    .right-story {
+        width: inherit;
+        left: 0;
+        display: block;
+    }
+
+    .left-story {
+        width: inherit;
+        left: 0;
+        display: block;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        padding: 1px;
     }
 }
