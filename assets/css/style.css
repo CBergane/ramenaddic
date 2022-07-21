@@ -6,17 +6,13 @@
     border: none;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 /* sett color and font family too body */
 body {
     font-family: 'Fira Mono', monospace;
     font-weight: 500;
     color: #3a3a3a;
 }
-
+/* sett style to h1 and h2 elements */
 h1, h2 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -26,6 +22,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+
 }
 
 #menu {
@@ -47,6 +44,8 @@ h1, h2 {
     text-decoration: none;
     color: inherit;
 }
+
+/* transition background of menu */
 
 #menu a:hover {
     background-color: #f79ac0;
@@ -227,6 +226,7 @@ footer{
 /* for the sign-up page */
 
 .form {
+    clear: left;
     background: url(/assets/images/sign-up.jpg);
     background-size: cover;
     background-position: center;
@@ -269,4 +269,15 @@ footer{
     font-size: 150%;
     background-color: #f79ac0;
     color: #3a3a3a;
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
 }
