@@ -56,15 +56,16 @@ h1, h2 {
     background-color: #f79ac0;
 }
 
-#cherry-border{
+ /* #cherry-border{
     height: 400px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-}
+    position: relative; 
+} */
 /* spinning animation 45 sec one spin */
 #cherry-img{
     height: 400px;
+    padding-top: 120px;
     background: url(../images/cherry.png) no-repeat center center;
     background-size: 400px;
     animation: rotation 45s infinite linear;
