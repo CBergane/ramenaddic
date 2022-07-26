@@ -270,7 +270,7 @@ footer{
     color: #3a3a3a;
 }
 
-/* For screens of 900px 2 columns shown */
+/* For screens of 900px */
 @media screen and (max-width: 900px) {
     .grid-image {
         clear: both;
@@ -285,10 +285,54 @@ footer{
     }   
 }
 
-/* For screens 390px and down one column shown */
+/* For screens 390px and down */
 @media screen and (max-width: 390px) {
+    * {
+        margin: -3px;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+    #menu {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .active-mobile {
+        background-color: #f79ac0;
+    }
+
+    #hero-img {
+        height: 500px;
+        width: 100%;
+        background: url(/assets/images/chef.jpg) no-repeat center center;
+    }
+
+    #ramen-story{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #origin > p {
+        width: 100%;
+    }
+
+    #post-war > h2 {
+        float: left;
+    }
+    #post-war > p {
+        width: 100%;
+    }
+
+    #modern-era > p {
+        width: 100%;
+    }
+
     .grid-image {
         --num-cols: 1;
         --row-height: 150px;
-    }    
+    }
 }
