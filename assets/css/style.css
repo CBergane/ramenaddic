@@ -225,15 +225,16 @@ footer{
 .img-wrapper > img {
     display: block;
     width: 100%;
-    object-fit: contain;
+    max-height: 100%;
+    object-fit: cover;
     object-position: center;
 } 
 
 .img-wrapper > .text {
     position: absolute;
     inset: 0;
-    font-size: 2.5rem;
-    padding: 1rem;
+    font-size: 120%;
+    padding: 25px;
     background: rgba(255, 255, 255, .4);
     display: flex;
     justify-content: center;
@@ -251,6 +252,22 @@ footer{
 
 .img-wrapper:hover > .text.fade {
     opacity: 1;
+}
+
+.img-wrapper:hover > img.blur {
+    filter: blur(2px);
+}
+
+.img-wrapper:hover > img.zoom {
+    transform: scale(1.1);
+}
+
+.img-wrapper > .text.slide {
+    transform: translateX(-100%);
+}
+
+.img-wrapper:hover > .text.slide {
+    transform: translateX(0);
 }
 
 /* for the sign-up page */
@@ -326,11 +343,14 @@ footer{
     }
     .grid-column-2 {
         grid-column: span 1;
-    }   
+    }
+    .grid-row-2-mid {
+        grid-row: span 2;
+    }
 }
 
-/* For screens 390px and down */
-@media screen and (max-width: 390px) {
+/* For screens 414px and down */
+@media screen and (max-width: 414px) {
     * {
         margin: -3px;
     }
@@ -380,6 +400,9 @@ footer{
         --num-cols: 1;
         --row-height: 150px;
     }
+    .grid-column-2-mid {
+        grid-column: span 1;
+    }   
 
     .form {
         margin-top: 60%;
