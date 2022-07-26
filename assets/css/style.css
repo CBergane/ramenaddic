@@ -201,7 +201,7 @@ footer{
     grid-auto-rows: var(--row-height);
 }
 
-.grid-image > img {
+.grid-image > .img-wrapper {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -213,6 +213,44 @@ footer{
 
 .grid-column-2 {
     grid-column: span 2;
+}
+
+/* the hovering styles for the img in the grid*/
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+} 
+
+.img-wrapper > .text {
+    position: absolute;
+    inset: 0;
+    font-size: 2.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, .4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper > img, 
+.img-wrapper > .text {
+    transition: .4s ease-in-out;
+}
+
+.img-wrapper > .text.fade {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .text.fade {
+    opacity: 1;
 }
 
 /* for the sign-up page */
@@ -229,7 +267,7 @@ footer{
     margin: 200px 30% 0 0;
     color: #fafafa;
     background-color: rgba(60, 60, 60, 0.5);
-    max-width: 600px;
+    max-width: 300px;
     position: absolute;
     left: 20%;
     padding: 35px;
