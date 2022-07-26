@@ -219,7 +219,7 @@ footer{
 
 .form {
     clear: left;
-    background: url(/assets/images/sign-up.jpg);
+    background: url(/assets/images/sign-up.jpg)fixed;
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -239,6 +239,12 @@ footer{
     color: #fafafa;
     margin-bottom: 20px;
 }
+
+.sign-up >  input label{
+    float: left;
+    display: inline-block;
+}
+
 
 .form-name {
     position: relative;
@@ -290,9 +296,10 @@ footer{
     * {
         margin: -3px;
     }
-
     #logo {
         font-size: 200%;
+        width: 100%;
+        text-align: center;
     }
     #menu {
         width: 100%;
@@ -334,5 +341,16 @@ footer{
     .grid-image {
         --num-cols: 1;
         --row-height: 150px;
+    }
+
+    .form {
+        margin-top: 60%;
+        padding-top: 300px;
+        letter-spacing: 3px;
+    }
+
+    .sign-up {
+        margin: 0;
+        left: 0;
     }
 }
