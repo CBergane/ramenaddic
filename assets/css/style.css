@@ -28,8 +28,6 @@ h1, h2 {
     float: right;
 }
 
-
-
 #menu li {
     float: left;
     list-style-type: none;
@@ -40,10 +38,15 @@ h1, h2 {
     line-height: 75px;
 }
 
-#menu a {
+a {
     text-decoration: none;
     color: #201e1e;
 }
+
+/* #menu a {
+    text-decoration: none;
+    color: #201e1e;
+} */
 
 /* transition background of menu */
 
