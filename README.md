@@ -32,6 +32,10 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/index.ht
 * As an audience, you should find sample content on social media easily.
 
 ### Color Scheme
-! [Color Scheme image](assets/redmefiles/color-palette.jpg)
+![Color Scheme image](assets/redmefiles/color-palette.jpg)
+                        
+These colors are used to make a simple but clear color scheme, in Japanese, the simpler the better. I chose pink cherry blossom pink #ffb7c5 since it represents cherry blossom. And a charcoal black #212121 for a base color for most text and color of gray #fafafa, gray98 for areas where charcoal black is hard to read, such as overlapping images.
 
-These colors are used to make a simple but clear color scheme, in Japanese, the simpler the better. I chose pink cherry blossom pink #ffb7c5 since it represents cherry blossom. And a charcoal black #212121 for a base color for most text and a color of gray #fafafa, gray98 for areas where charcoal black is hard to read, such as overlapping images.
+### Typography
+
+The main font is Karla with a fallback font of Sans-Serif in case Karla is not being imported correctly. Lato is being used for all headers with a fallback of Sans-Serif in case Lato isn't being imported correctly. These two are appropriate parings for each other.

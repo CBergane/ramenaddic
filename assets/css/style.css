@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Lato:wght@300&display=swap');
 
 * {
     margin: 0px;
@@ -8,7 +8,7 @@
 
 /* sett color and font family too body */
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 500;
     color: #212121;
     min-height: 100vh;
@@ -16,6 +16,7 @@ body {
 /* sett style to h1 and h2 elements */
 h1, h2 {
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 #logo {
