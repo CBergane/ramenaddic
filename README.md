@@ -8,7 +8,7 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/index.ht
 
 ## Table of Contents
 
-1. [User Experience UX](#user-experience)
+1. [User Experience UX](#user-experience-ux)
     1. [Project goals](#project-goal)
     2. [Audience story](#Audience-story)
     3. [Color scheme](#color-scheme)
@@ -39,3 +39,16 @@ These colors are used to make a simple but clear color scheme, in Japanese, the 
 ### Typography
 
 The main font is Karla with a fallback font of Sans-Serif in case Karla is not being imported correctly. Lato is being used for all headers with a fallback of Sans-Serif in case Lato isn't being imported correctly. These two are appropriate parings for each other.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com) was used to build the wireframes to showcase the elements of the site.
+
+Page | Desktop version | Mobile version | Tablet
+--- | --- | --- | ---|
+Index | ![Desktop index wireframe image](assets/wireframes/index.html.png) | ![Mobile index wireframe image](assets/wireframes/Phone%20main.png)
+Gallery | ![Desktop gallery wireframe image](assets/wireframes/Gallery.html.png) | ![Mobile gallery wireframe image](assets/wireframes/Phone%20gallery.png)
+Sign up | ![Desktop sign up wireframes image](assets/wireframes/Sign%20up.png) | ![Mobile sign up wireframes image](assets/wireframes/Sign%20up_2.png)
+Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
+
+[Back to top ⇧](#Ramen-addict)
