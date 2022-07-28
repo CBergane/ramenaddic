@@ -29,9 +29,9 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
     4. [Tools Testing](#tools-testing)
     5. [Manual Testing](#manual-testing)
 5. [Finished Project](#finished-project)
-6. [Deployment]
+6. [Deployment](#deployment)
     1. [GitHub Page](#github-page)
-7. [Credits]
+7. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
