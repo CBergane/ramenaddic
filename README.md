@@ -159,3 +159,17 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 
 ### Testing audience story
 
+* When visiting the website I want a clear understanding of the content.
+    - Nav bar is clearly in the corner and easily understood. And is in the same place on all the pages.
+* As an audience, I want to find more content on social media easily.
+    - Social media links are clearly at the bottom of all the pages.
+* As an audience, I want to find a way to get more relevant content from the author.
+    - The sign-up page s a quick way for the audience to take part in any specific content.
+
+### Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator) services were used to validate all pages of the project to ensure there were no syntax errors.
+
+    - W3C CSS Validator found no errors or warnings on my HTML.
+
+    - W3C CSS Validator found no errors or warnings on my CSS.
