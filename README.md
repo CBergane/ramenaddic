@@ -22,7 +22,21 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-4. 
+4. [Testing](#testing)
+    1. [Testing audience stories](#testing-audience-stories)
+    2. [Code validation](#code-validation)
+    3. [Accessibility](#accessibility)
+    4. [Tools Testing](#tools-testing)
+    5. [Manual Testing](#manual-testing)
+5. [Finished Project](#finished-project)
+6. [Deployment]
+    1. [GitHub Page](#github-page)
+7. [Credits]
+    1. [Content](#content)
+    2. [Media](#media)
+    3. [Code](#code)
+8. [Acknowledgments](#acknowledgments)
+
 ***
 
 ## User Experience UX
@@ -140,4 +154,8 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
     - W3C CSS Validator was used to validate the CSS code.
 
 [Back to top ⇧](#ramen-addict)
+
+## Testing
+
+### Testing audience story
 
