@@ -173,3 +173,38 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
     - W3C CSS Validator found no errors or warnings on my HTML.
 
     - W3C CSS Validator found no errors or warnings on my CSS.
+
+### Accessibility
+
+* Used lighthouse to measure accessibility in Crome DevTools.
+
+* Lighthouse reports.
+
+    - Landing page.
+    ![Lighthouse report for landing page](assets/redmefiles/preformence.jpg)
+
+    - Gallery page.
+    ![Lighthouse report for gallery page](assets/redmefiles/gallery-preformence.jpg)
+
+    - Sign up page.
+    ![Lighthouse report for sign up page](assets/redmefiles/Sign-up-preformence.jpg)
+
+* Responsiveness
+    
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check the responsiveness of the site pages across different devices.
+
+    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+### Manual Testing
+
+* Browser Compatibility
+
+    - The website has been tested on the following browsers:
+
+    **Google Chrome**
+        
+        No appearance, responsiveness nor functionality issues.
+
+    **Safari**
+        
+        No appearance, responsiveness nor functionality issues.

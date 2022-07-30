@@ -353,9 +353,6 @@ footer{
 
 /* For screens 540px and down */
 @media screen and (max-width: 540px) {
-    * {
-        margin: -3px;
-    }
     #logo {
         font-size: 200%;
         width: 100%;
@@ -368,6 +365,11 @@ footer{
         flex-direction: column;
         justify-content: flex-end;
     }
+
+    #menu li {
+        margin-right: 0;
+    }
+
     .active-mobile {
         background-color: #ffb7c5;
     }
