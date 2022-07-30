@@ -276,7 +276,7 @@ footer{
 /* for the sign-up page */
 
 .form {
-    clear: left;
+    clear: both;
     background: url(../images/sign-up.jpg)fixed;
     background-size: cover;
     background-position: center;

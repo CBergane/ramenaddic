@@ -208,3 +208,26 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
     **Safari**
         
         No appearance, responsiveness nor functionality issues.
+
+* Device compatibility
+
+    - The website has been tested on the following devices:
+
+    **MacBook Air**
+
+    No appearance, responsiveness nor functionality issues.
+
+    **iPhone 12pro**
+
+    No appearance, responsiveness nor functionality issues.
+
+    **Ipad mini**
+
+    No appearance, responsiveness nor functionality issues.
+
+    * Common Elements Testing
+
+    - All Pages
+        
+        - **Header**
+        
