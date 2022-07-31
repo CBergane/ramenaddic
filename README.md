@@ -311,4 +311,16 @@ Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.p
     - Spicy noodles: taken by M. W.
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/), [Traversy Media](https://www.youtube.com/c/TraversyMedia), [dcode](https://www.youtube.com/c/dcode-software), [Love Running](Code institute project)
+* [Stack Overflow](https://stackoverflow.com/), [Traversy Media](https://www.youtube.com/c/TraversyMedia), [dcode](https://www.youtube.com/c/dcode-software), [Love Running](https://codeinstitute.net/) were used for inspiration and guidelines to get the structure of the project.
+
+[Back to top ⇧](#ramen-addict)
+
+## Acknowledgments
+
+* To my wife and son for letting me do this on our vacation.
+
+* Code Institute and its amazing Slack community for their support and for providing me with the necessary knowledge to complete this project.
+
+* My mentor Marcel for giving quick guidance and feedback.
+
+[Back to top ⇧](#ramen-addict)
