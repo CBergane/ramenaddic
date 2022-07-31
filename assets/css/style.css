@@ -79,6 +79,7 @@ a {
     padding-left: 10px;
 
     background-color: #ffb7c5;
+    opacity: 0.8;
 
     bottom: 30px;
     left: 50px;
@@ -191,7 +192,6 @@ footer{
     clear: both;
     --gap: 16px;
     --num-cols: 4;
-    --row-height: 250px;
 
     box-sizing: border-box;
     padding: var(--gap);
@@ -199,7 +199,6 @@ footer{
     
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
     gap: var(--gap);
 }
 
@@ -402,7 +401,7 @@ footer{
 
     .grid-image {
         --num-cols: 1;
-        --row-height: 150px;
+        /* --row-height: 150px; */
     }
     .grid-column-2-mid {
         grid-column: span 1;

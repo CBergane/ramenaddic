@@ -225,9 +225,90 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 
     No appearance, responsiveness nor functionality issues.
 
-    * Common Elements Testing
+* Common Elements Testing.
 
-    - All Pages
+    - All Pages.
         
-        - **Header**
-        
+        **Header**
+        - Clicking the main logo will bring you back to the main page.
+
+        **Navigation bar**
+        - Hovering over the navigation bar will highlight the choice you will make.
+        - The active page is always highlighted.
+        - Clicking the navigation bar will bring you to the desired page.
+
+        **Footer**
+        - Clicking the social media button will bring you to the social media page of your choice.
+        - Hovering on the icons will highlight the icons.
+
+    - Index page.
+
+        **Main Section**
+        - A section of ramen history in 3 sections, they all share a fixed background image.
+
+    - Gallery pages.
+
+        **Gallery**
+        - The gallery is displayed in a responsive grid.
+        - All images have hover effects.
+    
+    - Sign Up page.
+
+        **Sign Up**
+        - The form section has 3 input fields and all are required to sign up.
+        - The input field for email is set to email so an @ is needed to send in.
+[Back to top ⇧](#ramen-addict)
+
+## Finished Project
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index | ![Desktop version screenshot](assets/redmefiles/main-screen.html.png) | ![Mobile version screenshot]()
+Gallery | ![Desktop version screenshot](assets/redmefiles/gallery-screen.html.png) | ![Mobile version screenshot]()
+Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.png) | ![Mobile version screenshot]()
+
+[Back to top ⇧](#ramen-addict)
+
+## Deployment
+* This website was developed using [GitPod](https://www.gitpod.io), which was then committed and pushed to GitHub using the GitPod terminal.
+
+### Githup Pages
+
+* I followed these steps to deploy my site on GitHub.
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+    2. At the top of the Repository, locate the Settings button on the menu.
+    3. Scroll down the Settings page until you locate the Pages section.
+    4. Under Source, click the dropdown called None and select Master Branch.
+    5. The page will refresh automatically and generate a link to your website
+
+[Back to top ⇧](#ramen-addict)
+
+## Credits
+
+### Content
+
+- All content is written by the developer.
+
+### Media
+
+* Own pictures
+    - Gallery images of ramen bowls are taken from vacation in Japan.
+
+* [Pixabay](https://pixabay.com)
+    - Hero image: Chef making ramen by Vardan Sevan.
+
+* [Rawpixel](https://www.rawpixel.com)
+    - Origin: An image report of the Russo-Japanese War, number one (1904) by Kogyo Tsukioka. Original from The Rijksmuseum. Digitally enhanced by rawpixel.
+    - Sign up: Mt. Fuji from Tagonoura, Snow Scene (1932) print in high resolution by Hiroaki Takahashi. Original from The Los Angeles County Museum of Art. Digitally enhanced by rawpixel.
+    - Ramen restaurant: Several people eating at a counter in an Asian café. Original public domain image from Wikimedia Commons.
+    - Ramen bowl vegan: Free vegan ramen image, public domain food CC0 photo.
+    - Classic ramen: Free Japanese ramen bowl image, public domain food CC0 photo.
+    - Woman eating ramen: By Tanasiri, Asian woman eating instant noodles during coronavirus quarantine.
+
+* [Unsplash](https://unsplash.com)
+    - Ramen noodles: Taken by Jakub Dziubak
+    - Tonkotsu ramen: Taken by Kim Daeyoung
+    - Spicy noodles: taken by M. W.
+### Code
+
+* [Stack Overflow](https://stackoverflow.com/), [Traversy Media](https://www.youtube.com/c/TraversyMedia), [dcode](https://www.youtube.com/c/dcode-software), [Love Running](Code institute project)
