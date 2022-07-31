@@ -263,9 +263,9 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop version screenshot](assets/redmefiles/main-screen.html.png) | ![Mobile version screenshot]()
-Gallery | ![Desktop version screenshot](assets/redmefiles/gallery-screen.html.png) | ![Mobile version screenshot]()
-Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.png) | ![Mobile version screenshot]()
+Index | ![Desktop version screenshot](assets/redmefiles/main-screen.html.png) | ![Mobile version screenshot](assets/redmefiles/Ramen%20Addict1.png)
+Gallery | ![Desktop version screenshot](assets/redmefiles/gallery-screen.html.png) | ![Mobile version screenshot](assets/redmefiles/Ramen%20Addict%20gallery1.png)
+Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.png) | ![Mobile version screenshot](/assets/redmefiles/Ramen%20Addict%20-%20Sign%20up1.png)
 
 [Back to top ⇧](#ramen-addict)
 
@@ -317,7 +317,7 @@ Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.p
 
 ## Acknowledgments
 
-* To my wife and son for letting me do this on our vacation.
+* To my wife and son for letting me accomplish this on our vacation.
 
 * Code Institute and its amazing Slack community for their support and for providing me with the necessary knowledge to complete this project.
 
