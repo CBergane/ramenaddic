@@ -356,6 +356,16 @@ footer{
 
 /* For screens of 900px */
 @media screen and (max-width: 900px) {
+    /* Turning animations off in mobil devices */
+    * {
+        -webkit-animation: none !important;
+    }
+    #origin > p {
+        padding: 0px;
+    }
+    #modern-era > p {
+        padding: 0;
+    }
     .grid-image {
         clear: both;
         --num-cols: 2;
