@@ -89,12 +89,20 @@ a {
 }
 
 #ramen-story {
-    margin: 50px 10px;
+    /* margin: 50px 10px; */
 }
 
 #ramen-story > h2 {
     text-align: center;
-    font-size: 250%;
+    font-size: 55px;
+}
+
+#ramen-story h2 {
+    font-size: 55px;
+}
+
+#ramen-story p {
+    font-size: 30px;
 }
 
 hr{
@@ -103,23 +111,25 @@ hr{
     margin: 5px 0;
 }
 
-/* a fixed img in background */
+/* a fixed img in background with a sliding animation*/
 
 #origin{
     text-align: left;
-    padding: 20px;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)no-repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
+    animation: animate-background linear 20s infinite;
 }
 
-#origin > h2 {
+#origin h2 {
    color: #fafafa;
+   float: left;
 }
 
 #origin > p {
     width: 50%;
+    padding: 20px;
 }
 
 #post-war{
@@ -127,10 +137,11 @@ hr{
     padding: 20px;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)no-repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
     float: right;
     margin-top: 20px;
+    animation: animate-background linear 20s infinite;
 }
 
 #post-war > h2 {
@@ -148,10 +159,16 @@ hr{
     text-align: left;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)no-repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
     float: left;
     margin-top: 20px;
+    animation: animate-background linear 20s infinite;
+}
+/* animation for horizontal slide */
+@keyframes animate-background {
+	from { background-position: 0px 0px; } 
+	to { background-position: 3501px 0px; }
 }
 
 #modern-era > h2 {
@@ -160,6 +177,7 @@ hr{
 
 #modern-era > p {
     width: 50%;
+    padding: 20px;
 }
 
 footer{
