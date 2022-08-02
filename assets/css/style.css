@@ -443,12 +443,13 @@ footer{
 
     .form {
         margin-top: 60%;
-        padding-top: 300px;
         letter-spacing: 3px;
+        
     }
 
     .sign-up {
         margin: 0;
         left: 0;
+        max-width: 100%;
     }
 }
