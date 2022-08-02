@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Social site for Ramen addicts">
-    <meta name="keywords" content="ramen, noodel, tonkotsu, food blog">
+    <meta name="keywords" content="ramen, noodle, tonkotsu, food blog">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Ramen Addict - Sign up</title>
 </head>
 <body>
     <header>
+        <!-- A title for the page with a link to the main page -->
         <a href="index.html">
             <h1 id="logo">Ramen Addict</h1>
         </a>
         <nav>
+            <!-- Navigation to the site -->
             <ul id="menu">
                 <li>
                     <a href="index.html">Home <i class="fa-solid fa-house"></i></a>
@@ -28,25 +30,31 @@
             </ul>
         </nav>
     </header>
+    <!-- a simple sign up form -->
     <section class="form">
         <form action="https://formdump.codeinstitute.net/" method="post" class="sign-up">
             <h2>Sign up for your newsletter. <i class="fa-solid fa-newspaper"></i></h2>
+            <!-- input first name and required attribute -->
             <label for="fname" class="form-name">First Name</label>
             <input type="text" class="text-input" id="fname" name="first-name" required>
+            <!-- input last name and required attribute -->
             <label for="lname" class="form-name">Last Name</label>
             <input type="text" class="text-input" id="lname" name="last-name" required>
+            <!-- input email and required attribute -->
             <label for="email" class="form-name">E-Mail</label>
             <input type="email" class="text-input" id="email" name="email" required>
             <p>What content are you interested in?</p><br>
-            <input type="radio" name="type-of-news" id="recipe" value="recipe" required>
+            <!-- radio buttons for content of interest -->
+            <input type="radio" name="type-of-content" id="recipe" value="recipe" required>
             <label for="recipe"> New Recipes</label><br>
-            <input type="radio" name="type-of-news" id="walktrues" value="walktrues" required>
-            <label for="walktrues"> Tutorials</label><br>
-            <input type="radio" name="type-of-news" id="all" value="all" required>
+            <input type="radio" name="type-of-content" id="walk-through" value="walk-through" required>
+            <label for="walk-through"> Tutorials</label><br>
+            <input type="radio" name="type-of-content" id="all" value="all" required>
             <label for="all">Everything!</label><br>
             <input type="submit" class="join" value="Let's go!">
         </form>
     </section>
+    <!-- Social media links with a hover effect and opens in separate tabs -->
 <footer>
     <ul class="social-media">
         <li>

@@ -54,14 +54,13 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
 * As an audience, you should find sample content on social media easily.
 
 ### Color Scheme
-![Color Scheme image](assets/redmefiles/color-palette.jpg)
+![Color Scheme image](assets/readmefiles/color-palette.jpg)
                         
 These colors are used to make a simple but clear color scheme, in Japanese, the simpler the better. I chose pink cherry blossom pink #ffb7c5 since it represents cherry blossom. And a charcoal black #212121 for a base color for most text and color of gray #fafafa, gray98 for areas where charcoal black is hard to read, such as overlapping images.
 
 ### Typography
 
-The main font is Karla with a fallback font of Sans-Serif in case Karla is not being imported correctly. Lato is being used for all headers with a fallback of Sans-Serif in case Lato isn't being imported correctly. These two are appropriate parings for each other.
-
+The main font is Karla with a fallback font of Sans-Serif in case Karla is not being imported correctly.
 ### Wireframes
 
 [Balsamiq](https://balsamiq.com) was used to build the wireframes to showcase the elements of the site.
@@ -81,40 +80,40 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 * Responsive design across all platforms and devices.
 * The colors are the same across the site.
 * **Header**
-![Header image](assets/redmefiles/header.jpg)
+![Header image](assets/readmefiles/header.jpg)
 
     - The header image contains the page title and a nav bar and is responsive to the top of the page.
     - The title contains a link back to index.html.
     - The nav bar is identical across the site and responsive to smaller screens. It contains hover effects to make it easier to navigate to the desired content. And it contains fontawesome icons for the content of choice.
 
 * **Footer**
-![Footer image](assets/redmefiles/footer.jpg)
+![Footer image](assets/readmefiles/footer.jpg)
 
     - The footer contains social media links and a hover effect for the fontawesome icons to highlight the audience's choice.
 
 ### Landing Page
 
 * **Hero image**
-![Hero image](assets/redmefiles/hero-img.jpg)
+![Hero image](assets/readmefiles/hero-img.jpg)
 
     - The hero image contains a background image and a message about the purpose of the page.
 
 * **Main Page**
-![Main page](assets/redmefiles/main.jpg)
+![Main page](assets/readmefiles/index.jpg)
 
     - The main page contains the history of ramen and its origin and a fixed background that is fixed across the three sections of history.
 
 ### Gallery Page
 
 * **Gallery**
-![Gallery image](assets/redmefiles/gallery-grid.jpg)
+![Gallery image](assets/readmefiles/gallery-grid.jpg)
 
     - The gallery page contains a sample of the social media content that the audience can expect. The images contain hover effects and a short text to describe the image.
 
 ### Sign Up Page
 
 * **Sign up page**
-![Sign-up image](assets/redmefiles/sign-up.jpg)
+![Sign-up image](assets/readmefiles/sign-up.jpg)
 
     -The sign-up page contains a fixed background image and a form with inputs of first, last name and a email input. They are required so you can't leave them empty. Radio buttons for the subscriber's choice of content and a submit button.
 
@@ -171,23 +170,27 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator) services were used to validate all pages of the project to ensure there were no syntax errors.
 
     - W3C CSS Validator found no errors or warnings on my HTML.
+    [W3C Markup Validator index](assets/readmefiles/validator.w3.org-nu-index.png)
+    [W3C CSS Validator gallery](assets/readmefiles/validator.w3.org-nu-gallery.png)
+    [W3C CSS Validator sign-up](assets/readmefiles/validator.w3.org-nu-sign-up.png)
 
     - W3C CSS Validator found no errors or warnings on my CSS.
+    [W3C CSS Validator](assets/readmefiles/jigsaw.w3.org-css-validator.png)
 
 ### Accessibility
 
-* Used lighthouse to measure accessibility in Crome DevTools.
+* Used lighthouse to measure accessibility in Chrome DevTools.
 
 * Lighthouse reports.
 
     - Landing page.
-    ![Lighthouse report for landing page](assets/redmefiles/preformence.jpg)
+    ![Lighthouse report for landing page](assets/readmefiles/index-preformence.jpg)
 
     - Gallery page.
-    ![Lighthouse report for gallery page](assets/redmefiles/gallery-preformence.jpg)
+    ![Lighthouse report for gallery page](assets/readmefiles/gallery-preformence.jpg)
 
     - Sign up page.
-    ![Lighthouse report for sign up page](assets/redmefiles/Sign-up-preformence.jpg)
+    ![Lighthouse report for sign up page](assets/readmefiles/sign-up-preformence.jpg)
 
 * Responsiveness
     
@@ -263,9 +266,9 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 
 Page | Desktop version | Mobile version
 --- | --- | ---
-Index | ![Desktop version screenshot](assets/redmefiles/main-screen.html.png) | ![Mobile version screenshot](assets/redmefiles/Ramen%20Addict1.png)
-Gallery | ![Desktop version screenshot](assets/redmefiles/gallery-screen.html.png) | ![Mobile version screenshot](assets/redmefiles/Ramen%20Addict%20gallery1.png)
-Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.png) | ![Mobile version screenshot](/assets/redmefiles/Ramen%20Addict%20-%20Sign%20up1.png)
+Index | ![Desktop version screenshot](assets/readmefiles/ramen-addic-index-desktop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-index-mobile.png)
+Gallery | ![Desktop version screenshot](assets/readmefiles/ramen-addic-gallery-dektop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-gallery-mobile.png)
+Sign Up | ![Desktop version screenshot](assets/readmefiles/ramen-addic-sign-up-desktop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-sign%20up-mobile.png)
 
 [Back to top ⇧](#ramen-addict)
 
@@ -302,7 +305,6 @@ Sign Up | ![Desktop version screenshot](assets/redmefiles/seign-up-screen.html.p
     - Sign up: Mt. Fuji from Tagonoura, Snow Scene (1932) print in high resolution by Hiroaki Takahashi. Original from The Los Angeles County Museum of Art. Digitally enhanced by rawpixel.
     - Ramen restaurant: Several people eating at a counter in an Asian café. Original public domain image from Wikimedia Commons.
     - Ramen bowl vegan: Free vegan ramen image, public domain food CC0 photo.
-    - Classic ramen: Free Japanese ramen bowl image, public domain food CC0 photo.
     - Woman eating ramen: By Tanasiri, Asian woman eating instant noodles during coronavirus quarantine.
 
 * [Unsplash](https://unsplash.com)
