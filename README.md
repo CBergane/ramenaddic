@@ -1,6 +1,6 @@
 # Ramen addict
 
-![Ramen addict mockup img](assets/redmefiles/mockup.jpg)
+![Ramen addict mockup img](assets/readmefiles/mockup.jpg)
 
 Ramen addict is a made-up blogger who wants to create a community for ramen lovers. This is a page that will bring the history of ramen and connect the blogger's audience to the community and social media accounts.
 
