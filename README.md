@@ -170,9 +170,9 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator) services were used to validate all pages of the project to ensure there were no syntax errors.
 
     - W3C CSS Validator found no errors or warnings on my HTML.
-    [W3C Markup Validator index](assets/readmefiles/validator.w3.org-nu-index.png)
-    [W3C CSS Validator gallery](assets/readmefiles/validator.w3.org-nu-gallery.png)
-    [W3C CSS Validator sign-up](assets/readmefiles/validator.w3.org-nu-sign-up.png)
+    ![W3C Markup Validator index](assets/readmefiles/validator.w3.org-nu-index.png)
+    ![W3C CSS Validator gallery](assets/readmefiles/validator.w3.org-nu-gallery.png)
+    ![W3C CSS Validator sign-up](assets/readmefiles/validator.w3.org-nu-sign-up.png)
 
     - W3C CSS Validator found no errors or warnings on my CSS.
     [W3C CSS Validator](assets/readmefiles/jigsaw.w3.org-css-validator.png)
@@ -269,6 +269,7 @@ Page | Desktop version | Mobile version
 Index | ![Desktop version screenshot](assets/readmefiles/ramen-addic-index-desktop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-index-mobile.png)
 Gallery | ![Desktop version screenshot](assets/readmefiles/ramen-addic-gallery-dektop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-gallery-mobile.png)
 Sign Up | ![Desktop version screenshot](assets/readmefiles/ramen-addic-sign-up-desktop.png) | ![Mobile version screenshot](assets/readmefiles/ramen-addict-sign%20up-mobile.png)
+Tablet | ![Tablet version screenshot of gallery](assets/readmefiles/ramenaddic-gallery-tablet.png)
 
 [Back to top ⇧](#ramen-addict)
 
