@@ -88,10 +88,6 @@ a {
 
 }
 
-#ramen-story {
-    /* margin: 50px 10px; */
-}
-
 #ramen-story > h2 {
     text-align: center;
     font-size: 55px;
@@ -117,7 +113,7 @@ hr{
     text-align: left;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
     animation: animate-background linear 40s infinite;
 }
@@ -136,7 +132,7 @@ hr{
     text-align: left;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
     float: right;
     margin-top: 20px;
@@ -158,7 +154,7 @@ hr{
     text-align: left;
     height: auto;
     width: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../images/origin.jpg)repeat fixed;
     color: #fafafa;
     float: left;
     margin-top: 20px;
@@ -276,22 +272,8 @@ footer{
 }
 
 /* adding a zoom effect */
-.img-wrapper:hover > img.zoom {
-    transform: scale(1.1);
-}
-
-/* adding a zoom effect */
 .img-wrapper:hover > img.zoom-out {
     transform: scale(0.9);
-}
-
-/* addig a slide effect to the text */
-.img-wrapper > .text.slide {
-    transform: translateX(-100%);
-}
-
-.img-wrapper:hover > .text.slide {
-    transform: translateX(0);
 }
 
 /* for the sign-up page */
@@ -416,26 +398,41 @@ footer{
     #ramen-story{
         display: flex;
         flex-direction: column;
+
+    }
+
+    #origin > h2 {
+        padding: 20px;
     }
 
     #origin > p {
         width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     #post-war > h2 {
         float: left;
+        padding: 20px;
     }
     #post-war > p {
         width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    #modern-era > h2 {
+        padding: 20px;
     }
 
     #modern-era > p {
         width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
     }
 
     .grid-image {
         --num-cols: 1;
-        /* --row-height: 150px; */
     }
     .grid-column-2-mid {
         grid-column: span 1;
@@ -444,7 +441,6 @@ footer{
     .form {
         margin-top: 60%;
         letter-spacing: 3px;
-        
     }
 
     .sign-up {
