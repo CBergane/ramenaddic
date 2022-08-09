@@ -115,7 +115,7 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 * **Sign up page**
 ![Sign-up image](assets/readmefiles/sign-up.jpg)
 
-    -The sign-up page contains a fixed background image and a form with inputs of first, last name and a email input. They are required so you can't leave them empty. Radio buttons for the subscriber's choice of content and a submit button.
+    - The sign-up page contains a fixed background image and a form with inputs of first, last name and a email input. They are required so you can't leave them empty. Radio buttons for the subscriber's choice of content and a submit button.
 
 ## Technologies Used
 

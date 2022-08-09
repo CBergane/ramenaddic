@@ -121,6 +121,7 @@ hr{
 #origin h2 {
    color: #fafafa;
    float: left;
+   padding: 20px;
 }
 
 #origin > p {
@@ -168,6 +169,7 @@ hr{
 
 #modern-era > h2 {
     color: #fafafa;
+    padding: 20px;
 }
 
 #modern-era > p {
@@ -401,10 +403,6 @@ footer{
 
     }
 
-    #origin > h2 {
-        padding: 20px;
-    }
-
     #origin > p {
         width: 100%;
         box-sizing: border-box;
@@ -421,9 +419,6 @@ footer{
         padding: 20px;
     }
 
-    #modern-era > h2 {
-        padding: 20px;
-    }
 
     #modern-era > p {
         width: 100%;
@@ -448,4 +443,6 @@ footer{
         left: 0;
         max-width: 100%;
     }
+    .social-media i {
+        font-size: 150%;
 }
