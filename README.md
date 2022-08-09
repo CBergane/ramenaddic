@@ -9,7 +9,7 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
 ## Table of Contents
 
 1. [User Experience UX](#user-experience-ux)
-    1. [Project goals](#project-goal)
+    1. [Project goals](#project-goals)
     2. [Audience story](#Audience-story)
     3. [Color scheme](#color-scheme)
     4. [Typography](#typography)
@@ -47,7 +47,7 @@ Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
 * To give a sample of some of its content on social media.
 * To provide a way for the audience to sign up for more content of their choice.
 
-### User Story
+### Audience Story
 
 * As an audience, it should be easy to navigate through the site and get a grip of what it is about.
 * As an audience, you should easily find the user's social media profiles.
@@ -65,8 +65,8 @@ The main font is Karla with a fallback font of Sans-Serif in case Karla is not b
 
 [Balsamiq](https://balsamiq.com) was used to build the wireframes to showcase the elements of the site.
 
-Page | Desktop version | Mobile version |
---- | --- | --- | ---|
+Page | Desktop version | Mobile version
+--- | --- | ---
 Index | ![Desktop index wireframe image](assets/wireframes/index.html.png) | ![Mobile index wireframe image](assets/wireframes/Phone%20main.png)
 Gallery | ![Desktop gallery wireframe image](assets/wireframes/Gallery.html.png) | ![Mobile gallery wireframe image](assets/wireframes/Phone%20gallery.png)
 Sign up | ![Desktop sign-up wireframes image](assets/wireframes/Sign%20up.png) | ![Mobile sign-up wireframes image](assets/wireframes/Sign%20up_2.png)
@@ -274,9 +274,8 @@ Tablet | ![Tablet version screenshot of gallery](assets/readmefiles/ramenaddic-g
 [Back to top ⇧](#ramen-addict)
 
 ## Deployment
-* This website was developed using [GitPod](https://www.gitpod.io), which was then committed and pushed to GitHub using the GitPod terminal.
-
-### Githup Pages
+* This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the GitPod terminal.
+### GitHup Pages
 
 * I followed these steps to deploy my site on GitHub.
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
