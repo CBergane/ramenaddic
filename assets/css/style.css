@@ -341,8 +341,14 @@ footer{
 /* For screens of 900px */
 @media screen and (max-width: 900px) {
     /* Turning animations off in mobil devices */
-    * {
-        -webkit-animation: none !important;
+    #origin{
+        animation: none;
+    }
+    #post-war{
+        animation: none;
+    }
+    #modern-era{
+        animation: none;
     }
     #origin > p {
         padding: 0px;
@@ -445,4 +451,5 @@ footer{
     }
     .social-media i {
         font-size: 150%;
+    }
 }

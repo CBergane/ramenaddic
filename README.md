@@ -126,13 +126,13 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 ### Frameworks Libraries And Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Lato and Karla into the style.css stylesheet. These fonts are used throughout the site.
+    - Google Fonts was used to import the fonts Karla into the style.css stylesheet. These fonts are used throughout the site.
 
 * [Font Awesome](https://fontawesome.com/)
     - Font Awesome was used throughout all pages to add icons to create a better visual experience for UX purposes.
 
 * [VS Studio Code](https://code.visualstudio.com)
-    - Vs Studio Code was used to write the code and to commit and push content to github.
+    - Vs Studio Code was used to write the code and to commit and push content to GitHub.
 
 * [GitHub](https://github.com/)
      - GitHub was used to store the project after pushing.
@@ -187,10 +187,10 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
     ![Lighthouse report for landing page](assets/readmefiles/index-preformence.jpg)
 
     - Gallery page.
-    ![Lighthouse report for gallery page](assets/readmefiles/gallery-preformence.jpg)
+    ![Lighthouse report for the gallery page](assets/readmefiles/gallery-preformence.jpg)
 
     - Sign up page.
-    ![Lighthouse report for sign up page](assets/readmefiles/sign-up-preformence.jpg)
+    ![Lighthouse report for the sign-up page](assets/readmefiles/sign-up-preformence.jpg)
 
 * Responsiveness
     
@@ -260,6 +260,7 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
         **Sign Up**
         - The form section has 3 input fields and all are required to sign up.
         - The input field for email is set to email so an @ is needed to send in.
+
 [Back to top ⇧](#ramen-addict)
 
 ## Finished Project
@@ -274,7 +275,7 @@ Tablet | ![Tablet version screenshot of gallery](assets/readmefiles/ramenaddic-g
 [Back to top ⇧](#ramen-addict)
 
 ## Deployment
-* This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the GitPod terminal.
+* This website was developed using [VS Studio Code](https://code.visualstudio.com), which was then committed and pushed to GitHub using the VS Studio terminal.
 ### GitHup Pages
 
 * I followed these steps to deploy my site on GitHub.
