@@ -4,6 +4,8 @@
 
 Ramen addict is a made-up blogger who wants to create a community for ramen lovers. This is a page that will bring the history of ramen and connect the blogger's audience to the community and social media accounts.
 
+To keep in mind that English is not my first language, I do apologize.
+
 Visit the deployed website [here](https://cbergane.github.io/ramenaddic/).
 
 ## Table of Contents
@@ -84,12 +86,12 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
 
     - The header image contains the page title and a nav bar and is responsive to the top of the page.
     - The title contains a link back to index.html.
-    - The nav bar is identical across the site and responsive to smaller screens. It contains hover effects to make it easier to navigate to the desired content. And it contains fontawesome icons for the content of choice.
+    - The nav bar is identical across the site and responsive to smaller screens. It contains hover effects to make it easier to navigate to the desired content. And it contains font-awesome icons for the content of choice.
 
 * **Footer**
 ![Footer image](assets/readmefiles/footer.jpg)
 
-    - The footer contains social media links and a hover effect for the fontawesome icons to highlight the audience's choice.
+    - The footer contains social media links and a hover effect for the font-awesome icons to highlight the audience's choice.
 
 ### Landing Page
 
@@ -175,7 +177,7 @@ Tablet | ![Desktop tablet wireframe image](assets/wireframes/Tablet.png)
     ![W3C CSS Validator sign-up](assets/readmefiles/validator.w3.org-nu-sign-up.png)
 
     - W3C CSS Validator found no errors or warnings on my CSS.
-    [W3C CSS Validator](assets/readmefiles/jigsaw.w3.org-css-validator.png)
+    ![W3C CSS Validator](assets/readmefiles/jigsaw.w3.org-css-validator.png)
 
 ### Accessibility
 
