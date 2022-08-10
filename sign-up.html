@@ -36,22 +36,22 @@
             <h2>Sign up for your newsletter. <i class="fa-solid fa-newspaper"></i></h2>
             <!-- input first name and required attribute -->
             <label for="fname" class="form-name">First Name</label>
-            <input type="text" class="text-input" id="fname" name="first-name" required>
+            <input type="text" class="text-input" id="fname" name="first-name"  aria-label="Enter first name." required>
             <!-- input last name and required attribute -->
             <label for="lname" class="form-name">Last Name</label>
-            <input type="text" class="text-input" id="lname" name="last-name" required>
+            <input type="text" class="text-input" id="lname" name="last-name"  aria-label="Enter last name" required>
             <!-- input email and required attribute -->
             <label for="email" class="form-name">E-Mail</label>
-            <input type="email" class="text-input" id="email" name="email" required>
+            <input type="email" class="text-input" id="email" name="email"  aria-label="Enter email" required>
             <p>What content are you interested in?</p><br>
             <!-- radio buttons for content of interest -->
-            <input type="radio" name="type-of-content" id="recipe" value="recipe" required>
+            <input type="radio" name="type-of-content" id="recipe" value="recipe"  aria-label="interested in recipes" required>
             <label for="recipe"> New Recipes</label><br>
-            <input type="radio" name="type-of-content" id="walk-through" value="walk-through" required>
-            <label for="walk-through"> Tutorials</label><br>
-            <input type="radio" name="type-of-content" id="all" value="all" required>
+            <input type="radio" name="type-of-content" id="tutorials" value="tutorials" aria-label="interested in tutorials" required>
+            <label for="tutorials"> Tutorials</label><br>
+            <input type="radio" name="type-of-content" id="all" value="all" aria-label="interested in everything" required>
             <label for="all">Everything!</label><br>
-            <input type="submit" class="join" value="Let's go!">
+            <input type="submit" class="join" value="Let's go!" aria-label="submit">
         </form>
     </section>
     <!-- Social media links with a hover effect and opens in separate tabs -->
